@@ -1,0 +1,135 @@
+body{
+  text-align: center;
+}
+#title{
+  background-color: #ff4c68;
+  padding-bottom: 120px;
+}
+.left1{
+  padding-top: 150px;
+}
+h1,.navbar-brand{
+  font-family: 'Montserrat Subrayada', sans-serif;
+  color: white;
+  font-weight: bold;
+}
+h1{
+  padding-bottom: 50px;
+}
+.navbar{
+  padding-bottom: 50px;
+}
+
+.nav-item{
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+.phone{
+  width: 300px;
+  transform: rotate(20deg);
+  position:absolute;
+  right:250px;
+}
+.btn{
+  margin: 10px;
+}
+
+.container-fluid{
+  padding:0 80px;
+}
+
+.element2{
+  padding: 50px 30px;
+}
+h2{
+  font-family: 'Montserrat Subrayada', sans-serif;
+  font-size: 2.5rem;
+  color:white;
+}
+.price{
+  font-family: 'Montserrat Subrayada', sans-serif;
+  color:black;
+}
+h3{
+  font-family: 'Montserrat Subrayada', sans-serif;
+}
+em{
+  font-family: 'Montserrat Subrayada', sans-serif;
+  color:white;
+}
+.e2i{
+  padding:80px;
+
+}
+.feat{
+  font-size: 3rem;
+  color:#ff4c68;
+}
+
+p{
+  color:#8f8f8f;
+}
+
+.carousel-item{
+  padding: 7% 15%;
+  background-color:#ff4c68;
+}
+ #press{
+   background-color:#ff4c68;
+   padding-bottom: 30px;
+ }
+
+.inner{
+  padding:0 100px;
+}
+.testimonial-image{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+.press-logo{
+  width: 15%;
+  margin: 20px 30px;
+}
+
+#pricing{
+  padding:100px 100px 0;
+}
+.pricing,.cards{
+  padding:50px 50px 50px 0;
+}
+#features{
+  background-color: white;
+  z-index: 1;
+  position: relative;
+}
+
+#cta{
+  background-color: #ff4c68;
+  padding: 150px;
+}
+.cta{
+  margin-bottom: 30px;
+  color: white;
+}
+
+#footer{
+  padding-top: 100px;
+}
+.copy{
+  padding-top: 10px;
+}
+.footicn{
+  padding: 0 20px 0;
+}
+@media (max-width:900px){
+  .phone{
+    position: static;
+    transform: rotate(0deg);
+  }
+  #features{
+    position: static;
+    z-index: 0;
+  }
+}
